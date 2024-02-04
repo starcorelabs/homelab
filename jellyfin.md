@@ -6,10 +6,7 @@
 - Set static ip address for server: 192.168.1.x.
 
 ### Jellyfin Official Site
-- [Install Jellyfin Server on Ubuntu](https://jellyfin.org/docs/general/administration/installing.html#ubuntu-repository)
-
-### Ubuntu Repository
-The Jellyfin team provides an Ubuntu repository for installation on Ubuntu Xenial, Bionic, Cosmic, Disco, Eoan, and Focal. Supported architectures are amd64, arm64, and armhf. Only amd64 is supported on Ubuntu Xenial.
+- [Install Jellyfin Server on Ubuntu](https://jellyfin.org/docs/general/installation/linux)
 
 Install HTTPS transport for APT if you haven't already:
 ```shell
@@ -30,8 +27,6 @@ Add a repository configuration at /etc/apt/sources.list.d/jellyfin.list:
 ```shell
 echo "deb [arch=$( dpkg --print-architecture )] https://repo.jellyfin.org/ubuntu $( lsb_release -c -s ) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list
 ```
-NOTE:
-Supported releases are xenial, bionic, cosmic, disco, eoan, and focal.
 
 Update APT repositories:
 ```shell
@@ -55,11 +50,11 @@ http://ip-address-of-server:8096/
 ```
 
 ### Enable folder permissions
-- Add your user name to Jellyfin group so you can add / remove files in the folders.
+- Add your username to Jellyfin group so you can add / remove files in the folders.
 ```shell
 sudo usermod -a -G jellyfin username
 ```
-- Remove your user name with this command.
+- You can remove your username with this command.
 ```shell
 sudo gpasswd -d username jellyfin
 ```

@@ -1,6 +1,5 @@
-## Node Version Manager (NVM) for Node and NPM
-I use Node.js for the [Eleventy static site generator](https://www.11ty.dev/).<br /> 
-It allows me to build and manage my UX Design portfolio site [https://michaeldouglas.xyz/](https://michaeldouglas.xyz/)
+# Node Version Manager (NVM) for Node and NPM
+I use Node.js for the [Eleventy static site generator](https://www.11ty.dev/).
 
 Instead of installing Node.js directly I use Node Version Manager. <br />
 Here's the post I found: [NVM install tutorial](https://tecadmin.net/install-nodejs-with-nvm/)

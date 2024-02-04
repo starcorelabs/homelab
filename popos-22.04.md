@@ -1,5 +1,5 @@
 # Pop!_OS 22.04
-This is my step-by-step guide to install and configure Pop!_OS 22.04.
+This is my guide to install and configure Pop!_OS 22.04.
 
 If you want to replace your current Windows operating system you can follow along.
 
@@ -9,7 +9,7 @@ If you don't like POP!_OS you can reinstall Windows if you have a disc or prepar
 
 I do not recommend dual booting because any issues with one OS will affect both. 
 
-## 1. Download
+### 1. Download
 
 Download the latest ISO here: [Pop!_OS](https://pop.system76.com/).
  
@@ -19,7 +19,7 @@ You'll need to use Etcher or Ventoy to create a bootable USB drive:
 
 Once you have the bootable drive you'll restart your target PC with the drive inserted.
 
-## 2. Boot
+### 2. Boot
 
 Access the [BIOS/UEIF](https://www.howtogeek.com/56958/HTG-EXPLAINS-HOW-UEFI-WILL-REPLACE-THE-BIOS/) and select the bootable USB drive you created to load. Or, use the BOOT MEDIA option to pick the the bootable USB drive when PC starts up. 
 
@@ -27,7 +27,7 @@ You'll have to look up the key combination for your specific hardware to access 
 
 Once you successfully load the bootable flash drive Pop!_OS should boot and load a live version. A minute later the installer will automatically load.
 
-## 3. Install
+### 3. Install
 
 At this point you can begin installing Pop!_OS on your PC. Follow the prompts and answer the questions.
 
@@ -38,7 +38,7 @@ At the end, your computer will prompt you to reboot. Follow the on screen instru
 
 After that's done you'll be on the desktop with a default wallpaper.
 
-## 4. Update and Upgrade
+### 4. Update and Upgrade
 Next you'll need to make sure the system has the latest updates. You do this through the Pop!_Shop or the terminal to update the system. I prefer the terminal.
 
 ```shell
@@ -47,14 +47,14 @@ sudo apt update && sudo apt upgrade -y
 It will ask you for your password. After you type it in, you'll see a lot of text letting you know what the system is doing. Red text means there is a problem.
 It will tell you when it completes successfully and return you to a new prompt. 
 
-## 5. Install Restricted Formats
+### 5. Install Restricted Formats
 Pop!_OS is great about including everyting you need out of the box. But I like to make sure I can interact with all file formats. So I install the "Restricted Extras". Which is fancy way of saying proprietary formats. 
 
 ```shell
 sudo apt-get install ubuntu-restricted-extras
 ```
 
-## 6. Hostname
+### 6. Hostname
 By default your new PC is named "POP!_OS". If this doesn't bother you then keep it. But you have the option to customize it. 
 
 I have a few computers I remote into. So I give them all different names based on specific taxonomical structures like names of the planets, trees, or minerals. 
@@ -71,7 +71,7 @@ The next time you open a terminal you'll see "your-username@your-hostname".
 
 Plus anytime you connect to this computer through Samba or NoMachine it will have this new name.
 
-## 7. Enable Maximize Button
+### 7. Enable Maximize Button
 Out of the box Pop!_OS doesn't have the maximize button on windows. This is annoying. We can use Gnome Tweaks to fix it.
 
 1. Open the Pop!_Shop on the dock. Search for "Tweaks". Install and open. 
@@ -82,7 +82,7 @@ Out of the box Pop!_OS doesn't have the maximize button on windows. This is anno
 
 Now you can maximize windows to take up the full screen.
 
-## 8. Post Install Apps
+### 8. Post Install Apps
 There are handfull of application I like to install after I've setup Pop!_OS.
 
 Use the Pop!_Shop to find and install the following apps:

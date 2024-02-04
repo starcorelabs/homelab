@@ -1,4 +1,4 @@
-## Brave Browser
+# Brave Browser
 You can install Brave Browser using a few different methods. <br /> 
 Note: While I like flatpak I don't recommend installing that version.
 

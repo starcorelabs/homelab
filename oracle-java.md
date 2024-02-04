@@ -1,4 +1,4 @@
-## Oracle Java
+# Oracle Java
 I use Oracle Java for running Minecraft. I've tried OpenJDK but it doesn't handle modded Minecraft as well.
 
 This tutorial showed me how to install [Oracle Java 18](https://www.itzgeek.com/how-tos/linux/how-to-install-oracle-java-jdk-18-on-linux.html)

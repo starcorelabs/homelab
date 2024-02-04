@@ -10,21 +10,24 @@ You can use [Ventoy](https://www.ventoy.net/en/index.html) to create a single fl
 
 Or, use the iso image to create a virtual machine on [Proxmox](https://www.proxmox.com/en/).
 
-Follow this installation guide on YouTube: [Mental Outlaw - Void Linux Installation Guide](https://youtu.be/wiP38mNXujE)
+### 1. Install
+Boot from your installation media and follow the prompts. It's easy. 
+
+If you get stuck. Follow this installation guide on YouTube: [Mental Outlaw - Void Linux Installation Guide](https://youtu.be/wiP38mNXujE)
 
 After the base install is up and running follow these steps.
 
-### Update
+### 2. Update
 ```shell
 sudo xbps-install -Su
 ```
 
-### Graphical Store
+### 3. Graphical Store
 ```shell
 sudo xbps-install -S octoxbps
 ```
 
-### Flatpak
+### 4. Flatpak
 ```shell
 sudo xbps-install -S flatpak
 ```
@@ -32,22 +35,22 @@ sudo xbps-install -S flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-### Brave Browser
+### 5. Brave Browser
 Normally I wouldn't recommend this version because it's slow. But, this is how Void works.
 ```shell
 flatpak install flathub com.brave.Browser
 ```
 
-### VSCodium
+### 6. VSCodium
 ```shell
 flatpak install flathub com.vscodium.codium
 ```
 
-### Flathub for more apps
+### 7. Flathub for more apps
 https://flathub.org/apps
 
 
-### Terminal Apps
+### 8. Terminal Apps
 These follow the same installation pattern
 ```shell
 sudo xbps-install -S <app name>
@@ -71,3 +74,5 @@ sudo xbps-install -S <app name>
 - ueberzug
 - nano
 
+### 9. Done
+Enjoy your new Void Linux desktop!

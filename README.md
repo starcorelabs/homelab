@@ -18,6 +18,7 @@ Here's a list of resources to learn more about building a Homelab.
 - The Homelab Wiki [https://thehomelab.wiki/](https://thehomelab.wiki/)
 - How to get started building a Homelab server in 2024 [https://joekarlsson.com/2023/09/how-to-get-started-building-a-homelab-server-in-2024/](https://joekarlsson.com/2023/09/how-to-get-started-building-a-homelab-server-in-2024/)
 - Homelabs 2023 Beginner's Guide To Homelabbing [https://mrash.co/homelab/](https://mrash.co/homelab/)
+- Awesome self-hosted [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ### Reddit
 - r/homelab [https://www.reddit.com/r/homelab/](https://www.reddit.com/r/homelab)

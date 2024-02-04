@@ -1,4 +1,4 @@
-## Samba
+# Samba
 Samba is an application that creates secure network shares between computers for local file sharing.
 
 This tutorial taught me how to install [Samba](https://vitux.com/how-to-install-and-configure-samba-on-ubuntu/).
