@@ -1,0 +1,43 @@
+# Terminal Apps
+This is a list of the terminal apps I like.
+Here's a link to more: [https://github.com/agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+- neofetch
+- htop
+- btop
+- screen
+- tmux
+- cmatrix
+- bat
+- ffmpeg
+- magick convert
+- cpufetch
+- gdu (drive analyserq)
+- lsd
+- bpytop
+- ascii-image-converter
+- speedtest-cli
+- lolcat
+- bottom
+- toipe
+- wordgrinder 
+- micro 
+- mc
+- espeak
+- asciiquarium
+- edex-ui
+- bashtop
+- tldr
+- ddgr (search duckduckgo)
+- w3m (Browser)
+- telnet
+- telnet towel.blinkenlights.nl
+- rainbowstream (twitter app)
+- wttr = curl wttr.in/noblesville
+- ncdu (disk analyser)
+- surfraw (check website)
+- timeshift
+- timetrap
+- cmus = terminal music players
+- exa
+- mtr = traceroute and ping
+- cheat.sh
