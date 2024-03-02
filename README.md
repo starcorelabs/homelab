@@ -10,7 +10,7 @@ This repository contains instructions for installing operating systems and self-
 Here's a list of resources to learn more about building a Homelab.
 
 ### Websites
-- What is a Homelab? [https://linuxhandbook.com/homelab](https://linuxhandbook.comhomelab/)
+- What is a Homelab? [https://linuxhandbook.com/homelab](https://linuxhandbook.com/homelab/)
 - How to set up a homelab from hardware to firewall [https://opensource.com/article/19/3/home-lab](https://opensource.com/article/19/3/home-lab)
 - Building a Homelab [https://openhomelab.org/index.php?title=Building_a_Homelab](https://openhomelab.org/index.php?title=Building_a_Homelab)
 - Want to build a homelab and looking for ideas? [https://domalab.com/build-homelab-setup-idea/](https://domalab.com/build-homelab-setup-idea/)
